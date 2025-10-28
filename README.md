@@ -1,2 +1,1 @@
-# modulo_registrazione
-Un semplice modulo di registrazione utente realizzato con HTML e CSS. Il progetto include un form responsive con campi per nome, email, password e pulsante di invio. È pensato come esercizio base di front-end per praticare la struttura e lo stile dei moduli web.
+A simple user registration form built with HTML and CSS. The project includes a responsive form with fields for name, email, password, and a submit button. It’s designed as a basic front-end exercise to practice the structure and styling of web forms.
