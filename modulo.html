@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Modulo Di Registrazione Utente</title>
+    <link rel="stylesheet" href="stile.css">
+
+</head>
+
+
+<body>
+
+    <h1>Modulo Di Registrazione Utente</h1>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+
+    <fieldset>
+
+         <legend>Dati personali</legend>
+
+         <label for="name" > Nome*:</label>
+         <input type="text" id="nome" name="nome" required> <br> <br>
+
+         <label for="cognome">Cognome*:</label>
+         <input type="text" id="cognome" name="cognome" required> <br> <br>
+
+         <label for="password"> Password*:</label>
+         <input type="text" id="password" name="password" required> <br> <br>
+
+         <label for="descrizione"> Descrizione: </label> <br>
+         <textarea id="descrizione" name="descrizione" rows="4" cols="40"></textarea>
+
+    </fieldset>
+
+
+    <fieldset>
+
+        <legend>Credenziali di accesso</legend>
+
+        <p>Piano:</p>
+
+        <input type="radio" id="base" name="piano" value="base" required>
+        <label for="base">Base</label> <br>
+
+        <input type="radio" id="standard" name="piano" value="standard" required>
+        <label for="standard">Standard</label> <br>
+
+        <input type="radio" id="premium" name="piano" value="premium" required>
+        <label for="premium"> Premium</label> <br> <br>
+
+        <p>Interessi:</p>
+
+        <input type="checkbox" id="newsletter" name="interessi" value="newsletter">
+        <label for="newsletter"> Newsletter </label> <br>
+
+        <input type="checkbox" id="offerte" name="interessi" value="offerte">
+        <label for="offerte"> Offerte </label> <br> <br>
+        
+        <label for="paese"> Paese*:</label>
+        <select id="paese" name="paese" required>
+            <option value="">Seleziona</option>
+            <option value="it">Italia</option>
+            <option value="fr">Francia</option>
+            <option value="es">Spagna</option>
+            <option value="de">Germania</option>
+            <option value="us">Stati Uniti</option>
+        </select>
+
+    </fieldset> <br>
+
+
+    <label for="foto">Foto Profilo</label>
+    <input type="file" id="foto" name="foto"> <br> <br>
+
+
+    <input type="hidden" name="versione_form" value="1.0">
+
+
+    <button type="submit">Invia</button>
+    <button type="reset">Reset</button>
+
+
+    </form>
+
+
+    <p><em>I campi contrassegnati con * sono obbligatori.</em></p>
+
+
+</body>
+
+</html>
