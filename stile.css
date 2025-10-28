@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #d8cccc;
+    margin: 10px;
+    color: rgb(29, 29, 110);
+    text-align: center;
+}
+
+
+h1 {
+    color: rgb(29, 29, 110);
+}
+
+
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: left;
+}
+
+
+fieldset {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+legend {
+    font-weight: bold;
+}
+
+
+button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background: rgb(47, 47, 151);
+    margin-right: 5px;
+}
