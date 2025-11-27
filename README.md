@@ -1,1 +1,9 @@
-A simple user registration form built with HTML and CSS. The project includes a responsive form with fields for name, email, password, and a submit button. It’s designed as a basic front-end exercise to practice the structure and styling of web forms.
+A simple PHP registration form project — a project that demonstrates creating and handling a user registration form using HTML, PHP and optional styling. Useful to show form handling, server‑side processing and basics of user input management.
+
+📂 Repository Contents
+
+- index.php — Main HTML form for user registration
+
+- process.php (or equivalent) — PHP logic to handle form submission
+
+- styles.css — CSS styles (if included) for layout/design
